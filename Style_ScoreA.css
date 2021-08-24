@@ -1,0 +1,181 @@
+
+
+    
+/*ALLGEMEIN***************************************/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .background {
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+
+
+ /*NAVIGATIONSLEISTE*****************************************************************/
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+    }
+/*LOGO*/
+     .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        width: 90px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+
+/*Navigation*/
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 30px 15px;
+    }
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list li a:hover {
+        cursor: pointer;
+        color: hotpink;
+    }
+ 
+/*SCROLLBOX*********************
+.wrapper{
+background-color:pink;
+background-image: url("files/cowbackground.jpg");
+background-size:cover;
+background-position:top left;
+background-attachement: scroll;
+}
+*/
+
+  /*SEITENINHALT*****************************************************************/
+  /*Sektionen*/
+    .Greensection {
+        background-color: green;
+        height: 400px;
+    }
+    .Bluesection {
+        background-color: blue;
+        height: 400px;
+    }
+    .Yellowsection {
+        background-color: yellow;
+        height: 400px;
+    }
+     .Endsection {
+        height: 100px;
+        max-width: 100%;
+        margin: 2%;
+    }
+    .emptysection{
+        background-color:transparent;
+        height: 400px;        
+    }
+
+
+/*Content Box*/
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        max-width: 80%;
+        margin: auto;
+        height: 90%;
+    }
+ /*MAIN-Page*/
+   .MainFirst {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .MainSecond {
+        width: 30%;
+    }
+
+/*Page2*/
+
+/*Page3*/
+
+/*Fusszeile***********************************************************************************/
+.stickybottom{
+    position:sticky;
+    bottom:0;
+}
+.BottomLine{
+    display: flex;
+    justify-content: flex-end;
+
+    }
+    .BottomLogo{
+        padding: 8px;
+        float: right;
+        display: flex;
+        width: 35px;
+    }
+    .BottomLogo img {
+        width: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        resize.width: 10%;
+        resize.height: auto;
+    }
+    .text-footer {
+        text-align: center;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+        width:25%;
+        padding: 10px;
+
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        font-size: xx-small;
+
+    }
+
+
+ /*TEXT-Formatierung*********************************************************/
+    .text-big {
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+ 
+    .text-small {
+        font-size: 18px;
+    }
+ 
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 0;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+ 
+
+  /*SONSTIGES*/
+
+
+
+ 
+
+
+
